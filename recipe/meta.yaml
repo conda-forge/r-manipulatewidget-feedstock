@@ -7,7 +7,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: manipulateWidget_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/manipulateWidget_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/manipulateWidget/manipulateWidget_{{ version }}.tar.gz
@@ -52,7 +51,7 @@ test:
 
 about:
   home: https://github.com/rte-antares-rpackage/manipulateWidget
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: Like package 'manipulate' does for static graphics, this package helps to easily add controls like sliders, pickers, checkboxes, etc. that  can be used
     to modify the input data or the parameters of an interactive  chart created with package 'htmlwidgets'.
   license_family: GPL3
