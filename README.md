@@ -3,7 +3,7 @@ About r-manipulatewidget
 
 Home: https://github.com/rte-antares-rpackage/manipulateWidget
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-manipulatewidget-feedstock/blob/master/LICENSE.txt)
 
