@@ -1,4 +1,4 @@
-{% set version = "0.11.0" %}
+{% set version = "0.11.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/manipulateWidget_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/manipulateWidget/manipulateWidget_{{ version }}.tar.gz
-  sha256: f2953494a08babba972e9dcc293f767371ccf5c8d0f4d67b78dba1a50c7dda47
+  sha256: 5b73728d7d6dcc32f32d861375074cd65112c03a01e4ee4fa94e21b063fdefb6
 
 build:
   merge_build_host: true  # [win]
