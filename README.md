@@ -1,11 +1,11 @@
-About r-manipulatewidget
-========================
+About r-manipulatewidget-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-manipulatewidget-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rte-antares-rpackage/manipulateWidget
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-manipulatewidget-feedstock/blob/main/LICENSE.txt)
 
 Summary: Like package 'manipulate' does for static graphics, this package helps to easily add controls like sliders, pickers, checkboxes, etc. that  can be used to modify the input data or the parameters of an interactive  chart created with package 'htmlwidgets'.
 
