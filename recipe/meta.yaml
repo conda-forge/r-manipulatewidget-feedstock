@@ -1,4 +1,4 @@
-{% set version = "0.11.1" %}
+{% set version = "0.11.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/manipulateWidget_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/manipulateWidget/manipulateWidget_{{ version }}.tar.gz
-  sha256: 5b73728d7d6dcc32f32d861375074cd65112c03a01e4ee4fa94e21b063fdefb6
+  sha256: 4b6044517d11bee732cd3a58eabf29b1f1330d328365dbc6cf252f19215684de
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
